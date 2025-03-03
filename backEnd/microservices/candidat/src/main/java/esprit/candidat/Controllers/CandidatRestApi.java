@@ -10,8 +10,7 @@ import javax.swing.text.html.parser.Entity;
 import java.util.List;
 
 @RestController
-@RequestMapping
-        //("/Mic1/Candidats")
+@RequestMapping("/Mic1/Candidats")
 
 public class CandidatRestApi {
 
@@ -21,6 +20,7 @@ public class CandidatRestApi {
 
     @Autowired
     private CandidatService candidatService;
+
 //    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
 
 //    public ResponseEntity<List <Candidat>> listCandidat(){

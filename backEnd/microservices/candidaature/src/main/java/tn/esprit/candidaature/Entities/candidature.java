@@ -1,6 +1,4 @@
 package tn.esprit.candidaature.Entities;
-
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -16,8 +14,8 @@ public class candidature {
     private Date applicationDate;
     private String link;
     private String motivation;
-    public candidature() {}
 
+    public candidature() {}
     public candidature(String motivation, String link, Date applicationDate, int idApplication) {
         this.motivation = motivation;
         this.link = link;
